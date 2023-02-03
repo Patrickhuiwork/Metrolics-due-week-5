@@ -163,6 +163,27 @@ footer,
     align-items: center;
 }
 
+/* main nav colours and icons */
+.main-nav__item:nth-child(1) {
+    background-color: #25c389;
+    background-image: url(assets\home_FILL0_wght400_GRAD0_opsz48.svg);
+}
+.main-nav__item:nth-child(2) {
+    background-color: #ffb901;
+    background-image: url(assets\pin_drop_FILL0_wght400_GRAD0_opsz48.svg), url();
+}
+.main-nav__item:nth-child(3) {
+    background-color: #de6262;
+    background-image: url(assets\campaign_FILL0_wght400_GRAD0_opsz48.svg), url();
+}
+.main-nav__item:nth-child(4) {
+    background-color: #1691bd;
+    background-image: url(assets\work_FILL0_wght400_GRAD0_opsz48.svg), url();
+}
+.main-nav__item:nth-child(5) {
+    background-color: #166ba2;
+    background-image: url(assets\mail_FILL0_wght400_GRAD0_opsz48.svg), url();
+}
 /* 2.1 Core layout */
 
 .row {
@@ -174,6 +195,35 @@ footer,
     position: relative;
     background-color: rgb(242, 230, 177);
 }
+
+.main-nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-nav__item {
+    display: block;
+    position: relative;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+    color: white;
+    line-height: 4rem;
+    background-repeat: no-repeat;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.main-nav__item::after {
+    content: ">";
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+}
+ 
 
 
 /* 2.2 Small only */

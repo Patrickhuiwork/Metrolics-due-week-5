@@ -161,7 +161,7 @@ footer,
 }
 /*slider*/
 .slider{
-    background-color: #ebebeb;
+    background-color: #c5c5c5;
 }
 
 .slider-image{
@@ -200,6 +200,26 @@ footer,
     background-color: #166ba2;
     background-image: url(assets\mail_FILL0_wght400_GRAD0_opsz48.svg), url();
 }
+
+/*footer */
+footer{
+    background-color: #16242f;
+}
+
+/*section */
+.sectionone{
+    background-color: #1eafde;
+    font-size: 1rem;
+}
+
+p1{
+    font-family: Ubuntu, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+}
+
 /* 2.1 Core layout */
 
 .row {

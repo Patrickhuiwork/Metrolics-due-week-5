@@ -105,9 +105,16 @@ h1{
     color: #222;
     font-weight: 400;
     text-align: center;
+    font-size: 1.5rem;
+}
+h3{
+    font-family: Ubuntu, sans-serif;
+    color: #222;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2rem;
 }
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -142,7 +149,16 @@ footer,
     padding: 1rem;
 }
 
+.column{
+    position: relative;
+}
 
+.logo {
+    margin-left: 2.5rem;
+    max-height: 1rem;
+    position: absolute;
+    bottom: 0;
+}
 /*slider*/
 .slider{
     background-color: #ebebeb;
@@ -223,7 +239,10 @@ footer,
     position: absolute;
     right: 1rem;
 }
- 
+
+.main-nav__item::after::after {
+    content: "";
+}
 
 
 /* 2.2 Small only */

@@ -144,7 +144,7 @@ main,
 section,
 footer,
 .header {
-    outline: 1px solid #ccc;
+    outline: none;
     min-height: 1rem;
     padding: 1rem;
 }
@@ -161,7 +161,7 @@ footer,
 }
 /*slider*/
 .slider{
-    background-color: #c5c5c5;
+    background-color: #f3f3f3;
 }
 
 .slider-image{
@@ -207,9 +207,14 @@ footer{
 }
 
 /*section */
+
 .sectionone{
     background-color: #1eafde;
     font-size: 1rem;
+}
+
+.sectiontwo{
+    background-color: #e5e5e5;
 }
 
 p1{
@@ -229,7 +234,7 @@ p1{
 
 .col {
     position: relative;
-    background-color: rgb(242, 230, 177);
+    background-color: none;
 }
 
 .main-nav {
@@ -541,4 +546,40 @@ p1{
     h3 {
         page-break-after: avoid;
     }
+}
+
+.section {
+    background-color: #fff;
+}
+
+.col-brands{
+    background-color: white;
+}
+
+.col-websolutions {
+    background-color:white
+}
+
+.col-thingsabove {
+    background-color: white;
+}
+
+.squares {
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+}
+
+span1{
+    color: #3f49ff;
+}
+
+.gecko{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.quote{
+
 }

@@ -580,6 +580,16 @@ span1{
     border-radius: 100%;
 }
 
-.quote{
+.project{
+    background-color: #55bde3;
+    padding-bottom: 5px;
+}
+
+.heading{  
+    margin-left: 5px;
+    text-align: left; 
+    color: white;
 
 }
+
+
